@@ -1,0 +1,60 @@
+{
+  "cliente": [
+    {
+      "id": 1,
+      "numeroCliente": "14245544",
+      "nomeCliente": "Ana Silva  ",
+      "usinas": {
+        "usinaId": 1,
+        "nomeUsina": "Belo Monte",
+        "percentualDeParticipacao": 40
+      }
+    },
+    {
+      "id": 2,
+      "numeroCliente": "245",
+      "nomeCliente": "João Santos",
+      "usinas": {
+        "usinaId": 1,
+        "nomeUsina": "Belo Monte",
+        "percentualDeParticipacao": 10
+      }
+    },
+    {
+      "id": 3,
+      "numeroCliente": 3,
+      "nomeCliente": "Maria Coelho",
+      "usinas": {
+        "usinaId": 1,
+        "nomeUsina": "Belo Monte",
+        "percentualDeParticipacao": 50
+      }
+    }
+  ],
+  "grandeza": [
+    {
+      "grandeza_id": 1,
+      "variavel": "tensao_V",
+      "nome": "Tensão",
+      "simbolo": "V"
+    },
+    {
+      "grandeza_id": 2,
+      "variavel": "corrente_A",
+      "nome": "Corrente",
+      "simbolo": "A"
+    },
+    {
+      "grandeza_id": 3,
+      "variavel": "potencia_kW",
+      "nome": "Potência",
+      "simbolo": "KW"
+    },
+    {
+      "grandeza_id": 4,
+      "variavel": "temperatura_C",
+      "nome": "Temperatura",
+      "simbolo": "C°"
+    }
+  ]
+}

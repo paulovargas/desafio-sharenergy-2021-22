@@ -1,0 +1,46 @@
+
+.progressComp h1 {
+  font-size: 20px;
+}
+
+.percent-number {
+  color: rgb(121, 121, 121);
+  text-align: center;
+}
+
+html, body{
+  padding: 3px;
+  margin: 0;
+  min-height: 100px;
+}
+
+.progress{
+  --progress: 50;
+  height: 25px;
+  padding: 5px;
+  background-color: #ccc;
+  display: flex;
+}
+
+.progress-list{
+  --progress: 25;
+  height: 25px;
+  padding: 5px;
+  background-color: #ccc;
+  display: flex;
+}
+
+.progress-bar::before{
+  content: "";
+  width: calc(var(1000) * 1%);
+  background-color: hsl( calc(var(1000) * 1.2) , 80%, 50%);
+  transition: all 0.2s ease;
+}
+
+.progress-bar{
+  background-color: rgb(233, 233, 233);
+  height: 25px;
+  border-radius: 1rem;
+  transition: 1s ease;
+  transition-delay: 0.5s;
+}
